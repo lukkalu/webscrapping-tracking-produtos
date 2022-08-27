@@ -80,7 +80,7 @@ dados_produto_df.to_csv(caminho,index=False)
 
 #### instanciando conexão com o banco ####
 
-cnx = mysql.connector.connect(user='root',password='Colg@te15', host='35.239.95.164', database='scrapping_produtos')
+cnx = mysql.connector.connect(user='root',password='senha', host='ip', database='banco')
 #cnx = mysql.connector.connect(user='seu usuario',password='sua senha', host='seu host', database='seu banco')
 
 cursor = cnx.cursor()
